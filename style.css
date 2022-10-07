@@ -1,0 +1,171 @@
+/* CSS Reset */
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  /*The box-sizing property is used to tell the browser what the sizing properties (width and height) should include border-box.*/
+  box-sizing: border-box;
+  /*reset Chrome user agent styles*/
+  -webkit-margin-before: 0px;
+  -webkit-margin-after: 0px;
+  -webkit-margin-start: 0px;
+  -webkit-margin-end: 0px;
+  -webkit-padding-before: 0px;
+  -webkit-padding-after: 0px;
+  -webkit-padding-start: 0px;
+  -webkit-padding-end: 0px;
+  /*reset Firefox user agent styles*/
+  -moz-margin-before: 0px;
+  -moz-margin-after: 0px;
+  -moz-margin-start: 0px;
+  -moz-margin-end: 0px;
+  -moz-padding-before: 0px;
+  -moz-padding-after: 0px;
+  -moz-padding-start: 0px;
+  -moz-padding-end: 0px;
+  /*reset Internet Explorer user agent styles*/
+  -ms-margin-before: 0px;
+  -ms-margin-after: 0px;
+  -ms-margin-start: 0px;
+  -ms-margin-end: 0px;
+  -ms-padding-before: 0px;
+  -ms-padding-after: 0px;
+  -ms-padding-start: 0px;
+  -ms-padding-end: 0px;
+  /*reset Opera user agent styles*/
+  -o-margin-before: 0px;
+  -o-margin-after: 0px;
+  -o-margin-start: 0px;
+  -o-margin-end: 0px;
+  -o-padding-before: 0px;
+  -o-padding-after: 0px;
+  -o-padding-start: 0px;
+  -o-padding-end: 0px;
+}
+
+body {
+  min-height: 100vh;
+  background-color: rgba(240,238,233,1.00);
+  /* rgba(102, 103, 171, 1.0) very perri pantone color*/ 
+}
+
+header {
+  background: url("./img/pexels-nao-triponez-129208.jpg")
+  /* Photo by Nao Triponez */
+  no-repeat center center;
+  background-size: cover;
+  height: 800px;
+  margin-top: 55px;
+}
+
+#top {}
+
+nav {
+  position: fixed;
+  display: block;
+  width: 100%;
+  top: 0;
+  text-align: left;
+  padding: 10px;
+  background-color:rgba(165,172,104,1.00);
+  color: white;
+  opacity: 1;
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.logo {
+  display: inline-block;
+  width: auto;
+  padding: 10px 20px;
+}
+
+.nav-items {
+  display: inline-block;
+  width: auto;
+  list-style-type: none;
+  float: right;
+}
+
+.nav-item {
+  display: inline-block;
+  width: auto;
+  padding: 10px 20px;
+  border-right: 2px solid #ddd;
+}
+
+li.nav-item a {
+  color: white;
+}
+
+section {
+  margin: auto;
+  margin-top: 50px;
+  width: 70%;
+  padding: 10px;
+  border: 3px solid black;
+  border-radius: 10px;
+
+}
+
+#aboutSection {
+
+}
+#skillsSection {
+
+}
+
+.flex-container {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+  align-items: stretch;
+  align-content: space-around;
+  margin: 10px;
+}
+
+.flex-item {
+  margin: 2%;
+  padding: 2%;
+  flex: 1 0 21%;
+  border: 1px black solid;
+}
+
+.flex-item img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+  border: 1px black solid;
+
+}
+
+figure figcaption{
+  color: rgba(102, 103, 171, 1.0);
+  font-weight: bold;
+  align-self: flex-end;
+  text-align: center;
+}
+
+#projectsSection {
+
+}
+#contactSection {
+
+}
+
+a {}
+
+footer {}
+#search {}
+
+
+
+
+
+
