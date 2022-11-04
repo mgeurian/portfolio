@@ -51,15 +51,18 @@ body {
 }
 
 header {
+  display: block;
+  position: relative;
+  text-align: center;
   background: url("./img/pexels-nao-triponez-129208.jpg")
   /* Photo by Nao Triponez */
   no-repeat center center;
   background-size: cover;
   height: 800px;
-  margin-top: 55px;
+  width: 100%;
+  margin-top: 40px;
+  padding-top: 20px;
 }
-
-#top {}
 
 nav {
   position: fixed;
@@ -67,7 +70,7 @@ nav {
   width: 100%;
   top: 0;
   text-align: left;
-  padding: 10px;
+  padding: 5px;
   background-color:rgba(165,172,104,1.00);
   color: white;
   opacity: 1;
@@ -108,41 +111,23 @@ section {
   margin-top: 50px;
   width: 70%;
   padding: 10px;
-  border: 3px solid black;
   border-radius: 10px;
-
 }
 
-#aboutSection {
-
-}
-#skillsSection {
-
-}
-
-.flex-container {
-  display: flex;
-  flex-flow: row wrap;
-  justify-content: space-evenly;
-  align-items: stretch;
-  align-content: space-around;
+.skills-container {
   margin: 10px;
 }
 
-.flex-item {
+figure {
+  display: inline-block;
+  text-align: center;
   margin: 2%;
   padding: 2%;
-  flex: 1 0 21%;
-  border: 1px black solid;
+  width: 21%;
 }
 
-.flex-item img {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 80%;
-  border: 1px black solid;
-
+img {
+  width: 100%;
 }
 
 figure figcaption{
@@ -151,21 +136,6 @@ figure figcaption{
   align-self: flex-end;
   text-align: center;
 }
-
-#projectsSection {
-
-}
-#contactSection {
-
-}
-
-a {}
-
-footer {}
-#search {}
-
-
-
 
 
 
