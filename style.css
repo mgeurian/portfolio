@@ -62,6 +62,10 @@ header {
   width: 100%;
   margin-top: 40px;
   padding-top: 20px;
+} 
+
+header nav a {
+  color: white;
 }
 
 nav {
@@ -95,16 +99,14 @@ nav {
   float: right;
 }
 
-.nav-item {
+.nav-link {
   display: inline-block;
   width: auto;
   padding: 10px 20px;
   border-right: 2px solid #ddd;
 }
 
-li.nav-item a {
-  color: white;
-}
+
 
 section {
   margin: auto;
