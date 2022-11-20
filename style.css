@@ -46,8 +46,6 @@
 
 body {
   min-height: 100vh;
-  background-color: rgba(240,238,233,1.00);
-  /* rgba(102, 103, 171, 1.0) very perri pantone color*/ 
 }
 
 header {
@@ -60,53 +58,33 @@ header {
   background-size: cover;
   height: 800px;
   width: 100%;
-  margin-top: 40px;
-  padding-top: 20px;
 } 
 
-header nav a {
-  color: white;
-}
-
-nav {
-  position: fixed;
-  display: block;
-  width: 100%;
-  top: 0;
-  text-align: left;
-  padding: 5px;
-  background-color:rgba(165,172,104,1.00);
-  color: white;
-  opacity: 1;
-}
-
-.clearfix::after {
+/* .clearfix::after {
   content: "";
   clear: both;
   display: table;
-}
+} */
 
-.logo {
+/* .navbar-brand {
   display: inline-block;
   width: auto;
   padding: 10px 20px;
-}
+} */
 
-.nav-items {
-  display: inline-block;
+/* .nav-items {
+  display: inline;
   width: auto;
-  list-style-type: none;
+  list-style-type: none; 
   float: right;
-}
+} */
 
-.nav-link {
+/* header nav ul a.nav-link {
   display: inline-block;
   width: auto;
   padding: 10px 20px;
   border-right: 2px solid #ddd;
-}
-
-
+} */
 
 section {
   margin: auto;
