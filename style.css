@@ -52,9 +52,9 @@ header {
   display: block;
   position: relative;
   text-align: center;
-  background: url("./img/pexels-nao-triponez-129208.jpg")
-  /* Photo by Nao Triponez */
+  background: url("./img/nasa_earth.jpg")
   no-repeat center center;
+  margin-top: 30px;
   background-size: cover;
   height: 800px;
   width: 100%;
@@ -64,33 +64,34 @@ header {
   content: "";
   clear: both;
   display: table;
-} */
+}
 
-/* .navbar-brand {
+.navbar-brand {
   display: inline-block;
   width: auto;
   padding: 10px 20px;
-} */
+}
 
-/* .nav-items {
+.nav-items {
   display: inline;
   width: auto;
   list-style-type: none; 
   float: right;
 } */
 
-/* header nav ul a.nav-link {
+header nav ul a.nav-link {
   display: inline-block;
   width: auto;
-  padding: 10px 20px;
-  border-right: 2px solid #ddd;
-} */
+  padding: 0px 30px;
+  /* change below w/ @media for better breakpoints & splitting navbar nav-items
+  border-right: 2px solid #ddd; */
+}
 
 section {
   margin: auto;
   margin-top: 50px;
   width: 70%;
-  padding: 10px;
+  padding: 50px;
   border-radius: 10px;
 }
 
@@ -110,11 +111,46 @@ img {
   width: 100%;
 }
 
+p {
+  font-size: 1.6rem;
+}
+
 figure figcaption{
   color: rgba(102, 103, 171, 1.0);
   font-weight: bold;
   align-self: flex-end;
   text-align: center;
+  margin-top: 1em;
+}
+
+#aboutSection {
+  display: flex;
+}
+#aboutSection div {
+  margin: 5%;
+}
+
+#projectsSection ul {
+  list-style-type: none;
+}
+
+.project {
+  display: flex;
+  padding: 1.5em;
+}
+.project-image {
+  width: 10em;
+  border-radius: 1em;
+  padding: 1em;
+  border: 1px black solid;
+}
+
+#contactSection {
+  text-align: center;
+}
+
+#contactSection div a {
+  margin: 1em;
 }
 
 
